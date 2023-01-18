@@ -1,6 +1,13 @@
-## React Action
+# React Action
 
-using action
+## creating a tag
+
+```bash
+git tag -a -m "Description of this release" v1
+git push --follow-tags
+```
+
+## using action
 
 ```yml
 name: React App

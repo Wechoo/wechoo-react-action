@@ -1,5 +1,5 @@
 name: 'Wechoo React Action'
-description: 'Greet someone and record the time'
+description: 'Build react application with custom sample input'
 
 inputs:
   example-input:
