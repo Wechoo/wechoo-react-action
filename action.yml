@@ -1,0 +1,20 @@
+name: 'Wechoo React Action'
+description: 'Greet someone and record the time'
+
+inputs:
+  example-input:
+    description: 'Example of an input key'
+    required: true
+    default: 'Hello'
+
+runs:
+  using: 'composite'
+  steps:
+    - run: echo Hello ${{ inputs.example-input }}.
+      shell: bash
+    - run: npm i
+      shell: bash
+    - run: npm test
+      shell: bash
+    - run: npm run build
+      shell: bash
