@@ -20,4 +20,6 @@ jobs:
 
     - name: Build React app
       uses: wechoo/wechoo-react-action@v1
+      with:
+        example-input: 'Hello World'
 ```
