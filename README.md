@@ -26,7 +26,7 @@ jobs:
     - uses: actions/checkout@v3
 
     - name: Build React app
-      uses: wechoo/wechoo-react-action@v1
+      uses: wechoo/wechoo-react-action@v1.0.1
       with:
         example-input: 'Hello World'
 ```
